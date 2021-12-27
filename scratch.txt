@@ -1,0 +1,7 @@
+                sum = diffs[i] + diffs[i+1] + diffs[i+2]
+                if sum is None:
+                    smallest_sum = sum
+                elif sum < smallest_sum:
+                    smallest_sum = sum
+                else:
+                    pass
